@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "py_sma_modbus"
-version = "0.1.0"
+version = "0.2.0"
 description = "This package can be used to read values from a SMA inverter through Modbus TCP."
 authors = ["Tim Groß <info@tim-gross.de>"]
 readme = "README.md"
