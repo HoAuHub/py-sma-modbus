@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"pylint.interpreter": [
+			".venv/Scripts/python.exe"
+		],
+		"pylint.args": [
+			"--max-line-length", "200"
+		],
+		"python.envFile": "${workspaceFolder}/.env",
+		"debug.inlineValues": "on"
+	}
+}
