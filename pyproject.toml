@@ -14,6 +14,14 @@ pymodbus = "2.3.0"
 black = "^24.4.2"
 isort = "^5.13.2"
 pylint = "^3.2.5"
+commitizen = "^3.27.0"
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+tag_format = "$version"
+version_scheme = "semver"
+version_provider = "poetry"
+update_changelog_on_bump = true
 
 [build-system]
 requires = ["poetry-core"]
